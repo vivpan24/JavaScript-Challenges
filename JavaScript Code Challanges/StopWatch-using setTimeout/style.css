@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: aqua;
+}
+
+#timer{  
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: x-large;
+}
+
+#button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    height: 40px;
+    width: 60px;
+    border-radius: 10px;
+    font-size: x-large;
+    box-shadow: 5px 5px 1px rgba(56, 51, 51, 0.5);
+    transition: all 0.5s;
+}
+button:hover{
+    cursor:pointer;
+}
+button:active{
+    box-shadow: none;
+    transition: all 0.5;
+}
